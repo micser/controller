@@ -1,0 +1,94 @@
+Name = minitel2;
+Version = 0.1;
+Author = "Michael Serisier 2016";
+KLL = 0.3d;
+
+# Modified Date
+Date = 2016-11-01;
+
+layerShift => Macro_layerShift_capability( layer : 2 );
+
+# Row 1
+S0x3F : U"F5"; # Connexion/Fin
+S0x25 : U"PageUp"; # Sommaire
+S0x28 : U"Esc"; # Annulation
+S0x13 : U"Home"; # Retour
+S0x03 : U"End"; # Repetition
+
+# Row 2
+S0x3E : U"Menu"; # Fnct
+S0x3D : U"PageDown"; # Guide
+S0x30 : U"Backspace"; # Correction
+S0x1B : U"Tab"; # Suite
+S0x0B : U"F11"; # Envoi
+
+# Row 3
+S0x33 : U"Esc"; # Esc
+S0x2B : U"Comma"; # Comma
+S0x3B : U"Period"; # Period
+S0x23 : U"Semicolon"; # Semicolon
+S0x19 : U"-"; # Minus
+S0x11 : ':'; # Colon
+S0x09 : U"Quote"; # Apostrophe
+S0x01 : U"Enter"; # Enter
+
+# Row 4
+S0x2D : U"Q"; # Q
+S0x35 : U"W"; # W
+S0x31 : U"E"; # E
+S0x29 : U"R"; # R
+S0x39 : U"T"; # T
+S0x21 : U"Y"; # Y
+S0x1D : U"U"; # U
+S0x15 : U"I"; # I
+S0xD : U"O"; # O
+S0x5 : U"P"; # P
+
+
+# Row 5
+S0x26 : U"Ctrl"; # Control
+S0x2E : U"A"; # A
+S0x36 : U"S"; # S
+S0x32 : U"D"; # D
+S0x2A : U"F"; # F
+S0x3A : U"G"; # G
+S0x22 : U"H"; # H
+S0x1E : U"J"; # J
+S0x16 : U"K"; # K
+S0xE : U"L"; # L
+S0x6 : U"M"; # M
+
+
+# Row 6
+S0x18 : U"Function1"; # Shift
+S0x2F : U"Z"; # Z
+S0x37 : U"X"; # X
+S0x34 : U"C"; # C
+S0x2C : U"V"; # V
+S0x3C : U"B"; # B
+S0x24 : U"N"; # N
+S0x18 : U"Function1"; # Shift
+S0x0 : '?'; # Question Mark
+
+# Row 7
+S0x38 : U"Up"; # Up arrow
+S0x20 : U"Down"; # Down arrow
+S0x27 : U"Space"; # Space
+S0x10 : U"Left"; # Left arrow
+S0x8 : U"Right"; # Right arrow
+
+# Keypad
+S0x2 : U"1"; # 1
+S0x4 : U"2"; # 2
+S0x7 : U"3"; # 3
+S0xA : U"4"; # 4
+S0xC : U"5"; # 5
+S0xF : U"6"; # 6
+S0x12 : U"7"; # 7
+S0x14 : U"8"; # 8
+S0x17 : U"9"; # 9
+S0x1A : U"Keypad Asterisk"; # *
+S0x1C : U"0"; # 0
+S0x1F : '#'; # #
+
+U"Function1" : layerShift( 1 );

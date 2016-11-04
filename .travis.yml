@@ -89,7 +89,7 @@ install:
   - uname -a
 
   # Pre-clone kll.git to speed-up build
-  - git clone https://github.com/kiibohd/kll.git
+  - git clone https://github.com/micser/kll.git
 
   # Directory tree to validate kll.git
   - tree
