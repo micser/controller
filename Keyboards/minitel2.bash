@@ -12,7 +12,8 @@ BuildPath="minitel2"
 ## KLL Configuration ##
 BaseMap="scancode_map"
 DefaultMap="md1Overlay stdFuncMap"
-PartialMaps[1]="minitel2_shift"
+PartialMaps[1]="minitel2_mouse"
+PartialMaps[2]="minitel2_shift"
 
 ##########################
 # Advanced Configuration #

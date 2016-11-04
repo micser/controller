@@ -16,7 +16,7 @@ S0x13 : U"Home"; # Retour
 S0x03 : U"End"; # Repetition
 
 # Row 2
-S0x3E : U"Menu"; # Fnct
+S0x3E : U"Function2"; # Fnct
 S0x3D : U"PageDown"; # Guide
 S0x30 : U"Backspace"; # Correction
 S0x1B : U"Tab"; # Suite
@@ -91,4 +91,5 @@ S0x1A : U"Keypad Asterisk"; # *
 S0x1C : U"0"; # 0
 S0x1F : '#'; # #
 
-U"Function1" : layerShift( 1 );
+U"Function2" : layerLock( 1 );
+U"Function1" : layerShift( 2 );
