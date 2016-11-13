@@ -1,3 +1,18 @@
+About this fork...
+==================
+
+This fork adds support for the [Minitel 1b Matra keyboard](http://matthieu.benoit.free.fr/kb1259.htm)
+
+This repo points to my own fork of the [KLL](https://github.com/micser/kll) repo.
+
+I do not intend to modify more code, you can find the original readme below
+
+Here is the final layout that was implemented
+
+![minitel2_layout](/Scan/minitel2/minitel2_layout.png?raw=true "musicco")
+
+
+
 The Kiibohd Controller
 ======================
 

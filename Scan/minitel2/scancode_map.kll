@@ -11,7 +11,7 @@ layerShift => Macro_layerShift_capability( layer : 2 );
 # Row 1
 S0x3F : U"F5"; # Connexion/Fin
 S0x25 : U"PageUp"; # Sommaire
-S0x28 : U"Esc"; # Annulation
+S0x28 : U"Alt"; # Annulation
 S0x13 : U"Home"; # Retour
 S0x03 : U"End"; # Repetition
 
